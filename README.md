@@ -7,10 +7,10 @@ This is a react project using an api from 'FreecurrencyAPI' ( https://freecurren
 
 A little intro about the installation.
 
- git clone https://github.com/Raghad-Emad/Currency-Convert.git
+$ git clone https://github.com/Raghad-Emad/Currency-Convert.git
 
- cd ../path/to/the/file ===> (CURRENCY)
+$ cd ../path/to/the/file ===> (CURRENCY)
 
- npm install
- 
- npm start
+$ npm install
+
+$ npm start
