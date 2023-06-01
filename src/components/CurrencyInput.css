@@ -1,0 +1,29 @@
+.currencyInput {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 80px;
+    width: 190px;
+    margin: 21px 0;
+}
+
+input,
+select {
+    color: #333;
+    width: 90px;
+}
+
+input {
+    padding-left: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+select {
+    padding: 15px;
+}

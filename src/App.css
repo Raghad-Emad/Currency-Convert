@@ -1,38 +1,35 @@
+body {  
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  padding: 50px;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1,p {
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.baseCurrencyText {
+  color: #575b5f;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.rateCurrencyText {
+  color: #202124;
+  font-family: Google sans, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 36px;
+  margin-bottom: 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.date {
+  color: #575b5f;
+  margin-bottom: 16px;
+  font-size: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
