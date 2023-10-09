@@ -14,3 +14,5 @@ $ cd ../path/to/the/file ===> (CURRENCY)
 $ npm install
 
 $ npm start
+
+
